@@ -1,0 +1,27 @@
+{
+  "name": "nitpicky-cli",
+  "version": "1.0.0",
+  "description": "Run flow & eslint with nitpicky config on project",
+  "main": "index.js",
+  "repository": "https://github.com/tiaanduplessis/nitpicky-cli",
+  "author": "Tiaan du Plessis",
+  "license": "MIT",
+  "bin": {
+    "nitpick": "index.js"
+  },
+  "dependencies": {
+    "babel-eslint": "^9.0.0",
+    "eslint": "^5.5.0",
+    "eslint-config-nitpicky": "^1.0.2",
+    "flow-bin": "^0.80.0"
+  },
+  "files": [
+    "index.js",
+    "yarn.lock"
+  ],
+  "keywords": [
+    "eslint",
+    "flow",
+    "nitpicky"
+  ]
+}
