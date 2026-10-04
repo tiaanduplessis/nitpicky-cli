@@ -11,7 +11,7 @@ const entry = process.argv.length > 2 ? process.argv[2] : '.'
 
 const cmds = [
   {
-    name: 'node',
+    name: process.execPath,
     args: [path.resolve(path.join(eslintPkgLoc, '..', bin.eslint || bin)), '--parser', 'babel-eslint', '--config', require.resolve('eslint-config-nitpicky'), entry, '--fix'],
   },
 ]

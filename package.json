@@ -9,6 +9,9 @@
   "bin": {
     "nitpick": "index.js"
   },
+  "scripts": {
+    "test": "node test/cli.js"
+  },
   "dependencies": {
     "babel-eslint": "^9.0.0",
     "eslint": "^5.5.0",

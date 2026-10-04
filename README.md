@@ -42,6 +42,9 @@ This package is based on [kcheck](https://github.com/kittens/kcheck).
 
 ## Contribute
 
+Run `npm test` to exercise the CLI with disposable projects and fixture executables.
+The tests require only Node.js; they do not install dependencies or start Flow.
+
 1. Fork it and create your feature branch: git checkout -b my-new-feature
 2. Commit your changes: git commit -am 'Add some feature'
 3. Push to the branch: git push origin my-new-feature 
